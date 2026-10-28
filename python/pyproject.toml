@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "turnstileshield"
+version = "1.0.2"
+authors = [{ name = "Aether Protocol Labs", email = "dev@aetherprotocol.io" }]
+description = "High-Speed Cloudflare Turnstile Resolution & cf_clearance Cookie Generator"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "httpx>=0.25.0"
+]
